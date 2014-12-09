@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Resources/Scripts/main.scpt</key>
+		<data>
+		0WIzqf1gKAa4MmVHO6Ur2qVUolc=
+		</data>
+		<key>Resources/applet.icns</key>
+		<data>
+		sINd6lbiqHD5dL8c6u79cFvVXhw=
+		</data>
+		<key>Resources/applet.rsrc</key>
+		<data>
+		L+5FFoBs79CXuVD2msmkW8FtsO4=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Info.plist</key>
+		<data>
+		fZTi0ckJzBXT9E4quv6sjtr3ufk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Library/QuickLook/SqueakQL.qlgenerator/Contents/Info.plist</key>
+		<data>
+		PmsnIcWdpzBhR8Dha7fncjG/k60=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Library/QuickLook/SqueakQL.qlgenerator/Contents/MacOS/SqueakQL</key>
+		<data>
+		BdgwRQcgOwyQuaxnFwFpvnVZD7o=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Library/QuickLook/SqueakQL.qlgenerator/Contents/MacOS/SqueakQL.sig</key>
+		<data>
+		/j5JqPatciWZj/ACBbteX0UdTjk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Library/QuickLook/SqueakQL.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			He3NcxiQ02JfuCLq6QVu82vqCWQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/bin/spoon</key>
+		<data>
+		PXvpRHvHKla+FHb9D5U71Nhe1fQ=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/bin/spoon.sh</key>
+		<data>
+		43XIfPBwvUXpqAdJ+7JdAxvJ9ZQ=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/activeFilesystem.changes</key>
+		<data>
+		HMGZlsfsnGqdAz2H1SPDbILbkxI=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/activeFilesystem.image</key>
+		<data>
+		rymVsOj4E3kkXwskKWUSj42Ev0E=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.AioPlugin</key>
+		<data>
+		qWVbxX7yrgtzA0TDYMmAO3yjHdk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.ClipboardExtendedPlugin</key>
+		<data>
+		1mrretigTHFuVUpKDqx4n7Akc0w=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.FileCopyPlugin</key>
+		<data>
+		Hmo2zrhopEHto5qeRQTDL2GLwOA=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.Flow</key>
+		<data>
+		LR79FOsetjMK2JT0n6jr5WxmvFI=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.HostWindowPlugin</key>
+		<data>
+		HQwE01mcgCAgCNqPTpW7Qcf7Zxo=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.KedamaPlugin</key>
+		<data>
+		6SrZ1p1lY5p/h3p01yiOOGf6y1Q=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.KedamaPlugin2</key>
+		<data>
+		+Cl0UsZIAvvgncnzM7PEHBnFN4E=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.MIDIPlugin</key>
+		<data>
+		VbWGQ9cRqw5YFlwjzmaOLJTyx6o=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.Mpeg3Plugin</key>
+		<data>
+		x+oMigpnf1YVtbXX1xCpKEaTqPE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.Squeak3D</key>
+		<data>
+		2BUTrwhktgOG/tqPPOubVJW+I24=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.SqueakFFIPrims</key>
+		<data>
+		G5dDYyCEM4qpJj6chnU3B2c/5R8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.UnixOSProcessPlugin</key>
+		<data>
+		5lExU40+7vLFuU75cN6egFYY9GY=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.XDisplayControlPlugin</key>
+		<data>
+		XPl0yd24QP3mDOfcqKqrossvEI8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-display-X11</key>
+		<data>
+		09w8SeAModNbBXADgzqk0nDS2ds=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-display-custom</key>
+		<data>
+		ZZoBsHKtklc2YD/VSh4oe8iTibs=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-display-fbdev</key>
+		<data>
+		3ik/tNqWIWnltSqX1K8uJ4AWN00=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-display-null</key>
+		<data>
+		S8HGjCpkLO1PGNJyUIzqDTW52kk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-sound-ALSA</key>
+		<data>
+		H8X5AsapDWhqxQp22DznRYG+YtQ=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-sound-OSS</key>
+		<data>
+		rjkKoKPZM0g0VwiykQE1uUZgCJM=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-sound-custom</key>
+		<data>
+		NMDRPEFVW+p8wjo575bdt4a6kjE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-sound-null</key>
+		<data>
+		M9urYEL+En9FN9nOGOmoiMmQjGU=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/spoonvm</key>
+		<data>
+		uk5hUwkNQz7/qI0y7wvstw9nfJ0=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/share/man/man1/squeak.1</key>
+		<data>
+		Iq7rhBF22BqfvgrBqV56qOzs3Hk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/MacOS/Spoon VM Opt</key>
+		<data>
+		iyfH510TCmZV2hnA5mjAZkJhDKw=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/PkgInfo</key>
+		<data>
+		KBab09QKIOgNnkf11X8nlWBZexk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/.lldbinit</key>
+		<data>
+		ovzOej7CFnpkEj52+u/wzL5mqlg=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/Flow.bundle/Contents/Info.plist</key>
+		<data>
+		0u8jekzhvbJ8liO1/CT1Gn8WkGg=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/Flow.bundle/Contents/MacOS/Flow</key>
+		<data>
+		MqYaxMdYaLmBTz5M/zCkqaRTtgc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/Flow.bundle/Contents/Resources/English.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cVCIS//7KA0JrdckIniEGWAQleU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/Flow.bundle/Contents/Resources/libportmidi.dylib</key>
+		<data>
+		XiCiKm+3TW0OBLk8fHJE8RI5JLE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/memory/1-ContextPrecursors-crl.1.mcz</key>
+		<data>
+		lIyvLCZO+KRGAL+NfxIBMa9erNI=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/memory/2-Context-crl.1.mcz</key>
+		<data>
+		sM5wBsUSw+7Epuu18tBLAYe7yxY=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/processor/1 of 4 - remote messaging.cs</key>
+		<data>
+		7qrGVJbUKKwozyinQQ2d28tk5nc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/processor/2 of 4 - unused-method removal.cs</key>
+		<data>
+		cMPJ5qPrDH9/MkFHQOEszkFnIRk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/processor/3 of 4 - active imprinting.cs</key>
+		<data>
+		Db4qZcYf2ME6dldij7OVOEI7AlI=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/processor/4 of 4 - collateral improvements.cs</key>
+		<data>
+		Of3R3JfCKnuxymnyKrhr+TB3ZC0=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/documentation/book/pictures/welcome.png</key>
+		<data>
+		Qi0n6Wm4tS4U5fHEY8tsO5dz9iM=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/documentation/book/pictures/workspace.png</key>
+		<data>
+		I8K3IsNweZTg+vI9t4SmbFmcz1M=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/documentation/book/the Spoon book.pages</key>
+		<data>
+		aZdY/Ew0tOsRKcwz6ZnC5u2F+H8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/documentation/book/the Spoon book.pdf</key>
+		<data>
+		SMNda/QXHpGDdeczb0Tg8c2kpCk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/memories/23687C16-EBB8-48B7-A38D-1B8D9216865B/23687C16-EBB8-48B7-A38D-1B8D9216865B.changes</key>
+		<data>
+		/EN31X4cPL7DUIDgiLuyGB6UpdE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/memories/23687C16-EBB8-48B7-A38D-1B8D9216865B/23687C16-EBB8-48B7-A38D-1B8D9216865B.image</key>
+		<data>
+		G3LftADOI9as/p6HV/+Zs1vsBCQ=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/memories/946BE974-48B7-4D11-B209-6355B3E49722/946BE974-48B7-4D11-B209-6355B3E49722.image</key>
+		<data>
+		DXvCfcNt8qEJeD0xPlgdgVmMWKM=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/memories/946BE974-48B7-4D11-B209-6355B3E49722/SqueakV3.sources</key>
+		<data>
+		y7Z6EjIduId10U944oARF5m976g=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/processor/context.config</key>
+		<data>
+		kouquLHq1KhvECbIg+vCQcF7Kx8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/_CodeSignature/CodeDirectory</key>
+		<data>
+		jd8j2JPU/mXtPls8AoSxtbB4GoE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/_CodeSignature/CodeRequirements</key>
+		<data>
+		hUB8L8IDPumEUiQlM5NK58rEIZ8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/_CodeSignature/CodeResources</key>
+		<data>
+		5/RzHT+I6bGpLxoiha0sQ/wH9Gg=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/_CodeSignature/CodeSignature</key>
+		<data>
+		+9+JthXr2waajrOhILmsbhGc4OE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/5/flow.dll</key>
+		<data>
+		ohiR0mab6fUBHeB6YVEHu9gcQ1c=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/5/spoon.exe</key>
+		<data>
+		sQFnIlaglfREgtwATGu6N5x3hlc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/5/spoon.ini</key>
+		<data>
+		sFc4N9Ov51x9OMvCqbOrYR7pkqo=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/8/flow.dll</key>
+		<data>
+		vpHXqKW0emjZ2UTlU6s+7Cu8V0Y=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/8/spoon.exe</key>
+		<data>
+		7z0VOPSdbZLSHszEVWWpdhvJA+4=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/FT2Plugin.dll</key>
+		<data>
+		I8+YVLxkNGaVJY6U95/LsaF2I00=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/SqueakFFIPrims.dll</key>
+		<data>
+		LmKt+HGgImzB+C5z3yfa3Qdu68s=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/SqueakSSL.dll</key>
+		<data>
+		ANiVuoTjSrNJhgT1BaCEx6TP16M=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/SqueakV3.sources</key>
+		<data>
+		y7Z6EjIduId10U944oARF5m976g=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/flow.dll</key>
+		<data>
+		aU1UOigHRJociq1kaaxKKhEsOGc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/msvcr100d.dll</key>
+		<data>
+		aFKyxZKzeU2hFNasXqnQgzF79a8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/msvcr120d.dll</key>
+		<data>
+		AsWzQs4wV+yOUos3ELs4AePunas=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/portforward.exe</key>
+		<data>
+		6PyzsCJAynpn/J5nJFvfsdDM0U8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/splash.bmp</key>
+		<data>
+		Z1pqJVW+i+rjyL1SHfVLHAEsjW4=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/spoon.exe</key>
+		<data>
+		sQFnIlaglfREgtwATGu6N5x3hlc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/spoon.ini</key>
+		<data>
+		j5Vol+ANBZp4iACugsXQbnoVwi8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Icon</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>Resources/context.icns</key>
+		<data>
+		ZALiBP6QOkZmkr6vljxp54KfzYs=
+		</data>
+		<key>Resources/description.rtfd/TXT.rtf</key>
+		<data>
+		perqrWWBFvGSOMe4iRpjs368ahU=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>RUNME/README.html</key>
+		<data>
+		pivPv/dFNxdFYWw7B61TNLsp+ow=
+		</data>
+		<key>RUNME/linux/context.sh</key>
+		<data>
+		ralAASTKbbrN75bhfP4j1jA/mGc=
+		</data>
+		<key>RUNME/mac/context 4 alpha 1.app</key>
+		<dict>
+			<key>symlink</key>
+			<string>../../../../context 4 alpha 1.app</string>
+		</dict>
+		<key>RUNME/windows/context.vbs</key>
+		<data>
+		ipF7h2sIBrpZPiKTnum3YfUWKjY=
+		</data>
+		<key>Resources/Scripts/main.scpt</key>
+		<data>
+		0WIzqf1gKAa4MmVHO6Ur2qVUolc=
+		</data>
+		<key>Resources/applet.icns</key>
+		<data>
+		sINd6lbiqHD5dL8c6u79cFvVXhw=
+		</data>
+		<key>Resources/applet.rsrc</key>
+		<data>
+		L+5FFoBs79CXuVD2msmkW8FtsO4=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Info.plist</key>
+		<data>
+		fZTi0ckJzBXT9E4quv6sjtr3ufk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Library/QuickLook/SqueakQL.qlgenerator/Contents/Info.plist</key>
+		<data>
+		PmsnIcWdpzBhR8Dha7fncjG/k60=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Library/QuickLook/SqueakQL.qlgenerator/Contents/MacOS/SqueakQL</key>
+		<data>
+		BdgwRQcgOwyQuaxnFwFpvnVZD7o=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Library/QuickLook/SqueakQL.qlgenerator/Contents/MacOS/SqueakQL.sig</key>
+		<data>
+		/j5JqPatciWZj/ACBbteX0UdTjk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Library/QuickLook/SqueakQL.qlgenerator/Contents/Resources/English.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			He3NcxiQ02JfuCLq6QVu82vqCWQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/bin/spoon</key>
+		<data>
+		PXvpRHvHKla+FHb9D5U71Nhe1fQ=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/bin/spoon.sh</key>
+		<data>
+		43XIfPBwvUXpqAdJ+7JdAxvJ9ZQ=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/activeFilesystem.changes</key>
+		<data>
+		HMGZlsfsnGqdAz2H1SPDbILbkxI=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/activeFilesystem.image</key>
+		<data>
+		rymVsOj4E3kkXwskKWUSj42Ev0E=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.AioPlugin</key>
+		<data>
+		qWVbxX7yrgtzA0TDYMmAO3yjHdk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.ClipboardExtendedPlugin</key>
+		<data>
+		1mrretigTHFuVUpKDqx4n7Akc0w=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.FileCopyPlugin</key>
+		<data>
+		Hmo2zrhopEHto5qeRQTDL2GLwOA=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.Flow</key>
+		<data>
+		LR79FOsetjMK2JT0n6jr5WxmvFI=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.HostWindowPlugin</key>
+		<data>
+		HQwE01mcgCAgCNqPTpW7Qcf7Zxo=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.KedamaPlugin</key>
+		<data>
+		6SrZ1p1lY5p/h3p01yiOOGf6y1Q=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.KedamaPlugin2</key>
+		<data>
+		+Cl0UsZIAvvgncnzM7PEHBnFN4E=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.MIDIPlugin</key>
+		<data>
+		VbWGQ9cRqw5YFlwjzmaOLJTyx6o=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.Mpeg3Plugin</key>
+		<data>
+		x+oMigpnf1YVtbXX1xCpKEaTqPE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.Squeak3D</key>
+		<data>
+		2BUTrwhktgOG/tqPPOubVJW+I24=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.SqueakFFIPrims</key>
+		<data>
+		G5dDYyCEM4qpJj6chnU3B2c/5R8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.UnixOSProcessPlugin</key>
+		<data>
+		5lExU40+7vLFuU75cN6egFYY9GY=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.XDisplayControlPlugin</key>
+		<data>
+		XPl0yd24QP3mDOfcqKqrossvEI8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-display-X11</key>
+		<data>
+		09w8SeAModNbBXADgzqk0nDS2ds=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-display-custom</key>
+		<data>
+		ZZoBsHKtklc2YD/VSh4oe8iTibs=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-display-fbdev</key>
+		<data>
+		3ik/tNqWIWnltSqX1K8uJ4AWN00=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-display-null</key>
+		<data>
+		S8HGjCpkLO1PGNJyUIzqDTW52kk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-sound-ALSA</key>
+		<data>
+		H8X5AsapDWhqxQp22DznRYG+YtQ=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-sound-OSS</key>
+		<data>
+		rjkKoKPZM0g0VwiykQE1uUZgCJM=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-sound-custom</key>
+		<data>
+		NMDRPEFVW+p8wjo575bdt4a6kjE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/so.vm-sound-null</key>
+		<data>
+		M9urYEL+En9FN9nOGOmoiMmQjGU=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/lib/spoon/4.4.7-2357/spoonvm</key>
+		<data>
+		uk5hUwkNQz7/qI0y7wvstw9nfJ0=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Linux/share/man/man1/squeak.1</key>
+		<data>
+		Iq7rhBF22BqfvgrBqV56qOzs3Hk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/MacOS/Spoon VM Opt</key>
+		<data>
+		iyfH510TCmZV2hnA5mjAZkJhDKw=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/PkgInfo</key>
+		<data>
+		KBab09QKIOgNnkf11X8nlWBZexk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/.lldbinit</key>
+		<data>
+		ovzOej7CFnpkEj52+u/wzL5mqlg=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/Flow.bundle/Contents/Info.plist</key>
+		<data>
+		0u8jekzhvbJ8liO1/CT1Gn8WkGg=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/Flow.bundle/Contents/MacOS/Flow</key>
+		<data>
+		MqYaxMdYaLmBTz5M/zCkqaRTtgc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/Flow.bundle/Contents/Resources/English.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cVCIS//7KA0JrdckIniEGWAQleU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/Flow.bundle/Contents/Resources/libportmidi.dylib</key>
+		<data>
+		XiCiKm+3TW0OBLk8fHJE8RI5JLE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/memory/1-ContextPrecursors-crl.1.mcz</key>
+		<data>
+		lIyvLCZO+KRGAL+NfxIBMa9erNI=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/memory/2-Context-crl.1.mcz</key>
+		<data>
+		sM5wBsUSw+7Epuu18tBLAYe7yxY=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/processor/1 of 4 - remote messaging.cs</key>
+		<data>
+		7qrGVJbUKKwozyinQQ2d28tk5nc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/processor/2 of 4 - unused-method removal.cs</key>
+		<data>
+		cMPJ5qPrDH9/MkFHQOEszkFnIRk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/processor/3 of 4 - active imprinting.cs</key>
+		<data>
+		Db4qZcYf2ME6dldij7OVOEI7AlI=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/changes/processor/4 of 4 - collateral improvements.cs</key>
+		<data>
+		Of3R3JfCKnuxymnyKrhr+TB3ZC0=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/documentation/book/pictures/welcome.png</key>
+		<data>
+		Qi0n6Wm4tS4U5fHEY8tsO5dz9iM=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/documentation/book/pictures/workspace.png</key>
+		<data>
+		I8K3IsNweZTg+vI9t4SmbFmcz1M=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/documentation/book/the Spoon book.pages</key>
+		<data>
+		aZdY/Ew0tOsRKcwz6ZnC5u2F+H8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/documentation/book/the Spoon book.pdf</key>
+		<data>
+		SMNda/QXHpGDdeczb0Tg8c2kpCk=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/memories/23687C16-EBB8-48B7-A38D-1B8D9216865B/23687C16-EBB8-48B7-A38D-1B8D9216865B.changes</key>
+		<data>
+		/EN31X4cPL7DUIDgiLuyGB6UpdE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/memories/23687C16-EBB8-48B7-A38D-1B8D9216865B/23687C16-EBB8-48B7-A38D-1B8D9216865B.image</key>
+		<data>
+		G3LftADOI9as/p6HV/+Zs1vsBCQ=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/memories/946BE974-48B7-4D11-B209-6355B3E49722/946BE974-48B7-4D11-B209-6355B3E49722.image</key>
+		<data>
+		DXvCfcNt8qEJeD0xPlgdgVmMWKM=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/memories/946BE974-48B7-4D11-B209-6355B3E49722/SqueakV3.sources</key>
+		<data>
+		y7Z6EjIduId10U944oARF5m976g=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/Resources/context/processor/context.config</key>
+		<data>
+		kouquLHq1KhvECbIg+vCQcF7Kx8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/_CodeSignature/CodeDirectory</key>
+		<data>
+		jd8j2JPU/mXtPls8AoSxtbB4GoE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/_CodeSignature/CodeRequirements</key>
+		<data>
+		hUB8L8IDPumEUiQlM5NK58rEIZ8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/_CodeSignature/CodeResources</key>
+		<data>
+		5/RzHT+I6bGpLxoiha0sQ/wH9Gg=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/_CodeSignature/CodeSignature</key>
+		<data>
+		+9+JthXr2waajrOhILmsbhGc4OE=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/5/flow.dll</key>
+		<data>
+		ohiR0mab6fUBHeB6YVEHu9gcQ1c=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/5/spoon.exe</key>
+		<data>
+		sQFnIlaglfREgtwATGu6N5x3hlc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/5/spoon.ini</key>
+		<data>
+		sFc4N9Ov51x9OMvCqbOrYR7pkqo=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/8/flow.dll</key>
+		<data>
+		vpHXqKW0emjZ2UTlU6s+7Cu8V0Y=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/8/spoon.exe</key>
+		<data>
+		7z0VOPSdbZLSHszEVWWpdhvJA+4=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/FT2Plugin.dll</key>
+		<data>
+		I8+YVLxkNGaVJY6U95/LsaF2I00=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/SqueakFFIPrims.dll</key>
+		<data>
+		LmKt+HGgImzB+C5z3yfa3Qdu68s=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/SqueakSSL.dll</key>
+		<data>
+		ANiVuoTjSrNJhgT1BaCEx6TP16M=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/SqueakV3.sources</key>
+		<data>
+		y7Z6EjIduId10U944oARF5m976g=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/flow.dll</key>
+		<data>
+		aU1UOigHRJociq1kaaxKKhEsOGc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/msvcr100d.dll</key>
+		<data>
+		aFKyxZKzeU2hFNasXqnQgzF79a8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/msvcr120d.dll</key>
+		<data>
+		AsWzQs4wV+yOUos3ELs4AePunas=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/portforward.exe</key>
+		<data>
+		6PyzsCJAynpn/J5nJFvfsdDM0U8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/splash.bmp</key>
+		<data>
+		Z1pqJVW+i+rjyL1SHfVLHAEsjW4=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/spoon.exe</key>
+		<data>
+		sQFnIlaglfREgtwATGu6N5x3hlc=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Contents/win32/spoon.ini</key>
+		<data>
+		j5Vol+ANBZp4iACugsXQbnoVwi8=
+		</data>
+		<key>Resources/context 4 alpha 1 processor.app/Icon</key>
+		<data>
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		</data>
+		<key>Resources/context.icns</key>
+		<data>
+		ZALiBP6QOkZmkr6vljxp54KfzYs=
+		</data>
+		<key>Resources/description.rtfd/TXT.rtf</key>
+		<data>
+		perqrWWBFvGSOMe4iRpjs368ahU=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^Resources/</key>
+		<true/>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^Resources/.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^Resources/.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^[^/]+$</key>
+		<dict>
+			<key>nested</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

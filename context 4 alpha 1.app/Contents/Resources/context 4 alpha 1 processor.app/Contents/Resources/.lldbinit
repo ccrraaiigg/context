@@ -1,0 +1,3 @@
+settings set target.run-args ~/Spoon/releases/contents/946BE974-48B7-4D11-B209-6355B3E49722.image
+breakpoint set -n breakHere
+r
