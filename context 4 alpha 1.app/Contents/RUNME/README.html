@@ -53,6 +53,14 @@ comments about the structure of this thing are in order.
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
+     <b>Context</b> is a programming language, in the form of a virtual
+operating system. It runs on multiple host platforms (like Linux, Mac OS,
+and Windows), and looks like a normal app on each platform. However, it
+presents the programmer with a platform-independent model of system resources
+(like files, sockets, devices, and processes), through an object-oriented
+programming interface. A virtual machine supports the programming interface
+on each platform, using appropriate platform-specific system calls.
+
      This file is part of the <b>Context</b> app, which takes the
 form of an Apple <b>app</b> directory tree, augmented to be self-revealing
 on Linux and Windows as well. When you start the app, it opens a
