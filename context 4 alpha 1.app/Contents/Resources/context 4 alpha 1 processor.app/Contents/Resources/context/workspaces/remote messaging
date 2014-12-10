@@ -1,0 +1,1 @@
+"Start a remote-messaging server."RemoteMessagingServer new"Connect to the history memory."MemoryControl	recordHistoryInMemoryWithID: (UUID fromString: '946BE974-48B7-4D11-B209-6355B3E49722')	applyingName: 'history'"Test connectivity with the history memory."(MemoryControl peerInMemoryNamed: 'history') ping
