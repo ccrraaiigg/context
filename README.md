@@ -1,1 +1,1 @@
-context 4 alpha 1.app/Contents/RUNME/README.html
+context.app/Contents/RUNME/README.html
