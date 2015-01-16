@@ -53,27 +53,30 @@ comments about the structure of this thing are in order.
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-     <b>Context</b> is a <b>programming language</b>, in the form of a <b>virtual
-operating system</b>. It runs on multiple <b>host platforms</b> (like Linux, Mac OS,
-and Windows), and looks like a normal <b>app</b> on each platform. However, it
-presents the programmer with a platform-independent model of system resources
-(like files, sockets, devices, and processes), through an <b>object-oriented
-programming</b> interface. A <b>virtual machine</b> supports the programming interface
-on each platform, using appropriate platform-specific system calls.
+     <b>Context</b> is a <b>programming language</b>, in the form of
+a <b>virtual operating system</b>. It runs on multiple <b>host
+platforms</b> (like Linux, Mac OS, and Windows), and looks like a
+normal <b>app</b> on each platform. However, it presents the
+programmer with a platform-independent model of system resources (like
+files, sockets, devices, and processes), through an <b>object-oriented
+programming</b> interface. A <b>virtual machine</b> supports the
+programming interface on each platform, using appropriate
+platform-specific system calls.
 
 </p>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-     A summary of features one may expect to work in each release is in FEATURES.html.
+     A summary of features one may expect to work in each release is
+in FEATURES.html.
      
 </p>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-     This file is part of the <b>Context</b> app, which takes the
-form of an Apple app directory tree, augmented to be self-revealing
-on Linux and Windows as well. When you start the app, it opens a
+     This file is part of the <b>Context</b> app, which takes the form
+of an Apple app directory tree, augmented to be self-revealing on
+Linux and Windows as well. When you start the app, it opens a
 <b>console</b>, from which you may control a set
 of <a href="https://en.wikipedia.org/wiki/Smalltalk"><b>Smalltalk</b></a>
 systems. The console presents a list of all installed systems,
@@ -240,19 +243,66 @@ memory. The console lets you discover and manipulate memory snapshots.
 
      The app directory is also
 a <a href="https://github.com/ccrraaiigg/context">git repository</a>,
-with a <a href="#subtrees">subtree repo</a> nested within it for each
-locally-installed memory. Note that none of this structure is signed
-for any host platform. I'll set up a separate site for downloading
-properly-signed releases. When newly cloned, the master repo contains
-two installed memories: <b>seed</b> and <b>development</b>.
+with a <a href="#submodules">submodule repo</a> nested within it for
+each locally-installed memory. Note that none of this structure is
+signed for any host platform. I'll set up a separate site for
+downloading properly-signed releases. When newly cloned, the master
+repo contains multiple installed memories: a <b>console</b> memory,
+and a <b>development</b> memory for each supported Smalltalk
+distribution.
 
 </p>
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-     The seed memory contains the objects necessary to support
+     Currently, <a href="http://squeak.org">Squeak</a> is
+supported. The next target is <a href="http://pharo.org">Pharo</a>. We
+intend to support all distributions, including:
+
+<ul>
+<li>
+
+     <a href="http://squeak.org">Squeak</a>
+
+<li>
+
+     <a href="http://pharo.org">Pharo</a>
+
+<li>
+
+     <a href="http://www.cincomsmalltalk.com/main/products/visualworks">VisualWorks</a>
+
+<li>
+
+     <a href="http://www.instantiations.com/products/vasmalltalk">VA
+Smalltalk</a>
+
+<li>
+
+     <a href="http://gemtalksystems.com/products/gss32">GemStone/S</a>
+
+<li>
+
+     <a href="http://smalltalk.gnu.org">GNU Smalltalk</a>
+
+</ul>
+
+Please create an issue if we missed one. Thanks!
+
+</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+     For each memory you want to install locally, clone its repo
+directory to .../context.app/Contents/RUNME/memories/.
+
+</p>
+<p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+     The console memory contains the objects necessary to support
 essential object behavior, to grow itself through live synchronization
-with other memories, and to communicate through web services. The
+with other memories, and to communicate through web services. A
 development memory has modules installed to support a development
 environment (a graphical interface, compiler, inspectors, debugger,
 etc.).
@@ -261,12 +311,12 @@ etc.).
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-     Memories come in pairs: a <b>subject</b> and
+     A system includes a pair of memories: a <b>subject</b> and
 a <b>history</b>. Each history memory records the edit history of its
 subject, and synchronizes it with other subjects. It has no direct
 human interface support (it's <b>headless</b>), because it only needs
-to communicate with its subject memory. It communicates with <b>remote
-messages</b>, messages from an object in one memory to an object in
+to communicate with its subject memory. It communicates via <b>remote
+messages</b>: messages from objects in one memory to objects in
 another memory (run by a processor on any net-connected physical
 machine).
 
@@ -274,11 +324,12 @@ machine).
 <p>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-     The seed memory is also headless; the console is a web server
-running there. The Context app resumes the seed memory, and the seed
-resumes the console web browser. The Context app then opens a host web
-browser that visits the web server. The behavior of the console is
-then provided as a web service.
+     The console memory is also headless; there's a web server running
+there. The Context app resumes the console memory, and the console
+memory resumes its web server. The Context app then opens a host web
+browser that visits the console web server. The behavior of the
+console (for example, resuming a GUI memory) is then provided as a web
+service.
 
 </p>
 <p>
@@ -295,11 +346,12 @@ cited together on web pages, indexed by search engines for later
 discovery.
 
 </p>
-<p id="subtrees">
+<p id="submodules">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-     Any seed memory can become a history for another system. By
-installing modules, a seed memory can grow to include a set of apps.
+     The console memory can become the history memory for another
+system. By installing modules, any memory can grow to include a set of
+apps. You can also unload modules.
 
 </p>
 <hr>
