@@ -1,1 +1,1 @@
-context.app/Contents/RUNME/README.html
+context.app/Contents/RUNME/README.md
