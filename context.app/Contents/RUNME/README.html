@@ -1,33 +1,32 @@
 
-     You're almost in <b>Context</b>. To get there, start the console:
+You're almost in **Context**. To get there, start the console:
 
--    On Mac OS, double-click the app containing this file.
+- On Mac OS, double-click the app containing this file.
 
--    On Windows, double-click <b>windows/context.vbs</b>
+- On Windows, double-click **windows/context.vbs**
 
--    On Linux, run <b>linux/context.sh</b>
+- On Linux, run **linux/context.sh**
 
-     Hm, you're still reading this. Too bad. Well, perhaps a few
-comments about the structure of this thing are in order.
+Hm, you're still reading this. Too bad. Well, perhaps a few comments
+about the structure of this thing are in order.
 
-     <b>Context</b> is a <b>programming language</b>, in the form of
-a <b>virtual operating system</b>. It runs on multiple <b>host
-platforms</b> (like Linux, Mac OS, and Windows), and looks like a
-normal <b>app</b> on each platform. However, it presents the
-programmer with a platform-independent model of system resources (like
-files, sockets, devices, and processes), through an <b>object-oriented
-programming</b> interface. A <b>virtual machine</b> supports the
-programming interface on each platform, using appropriate
-platform-specific system calls.
+**Context** is a **programming language**, in the form of a **virtual
+operating system**. It runs on multiple **host platforms** (like
+Linux, Mac OS, and Windows), and looks like a normal **app** on each
+platform. However, it presents the programmer with a
+platform-independent model of system resources (like files, sockets,
+devices, and processes), through an **object-oriented programming**
+interface. A **virtual machine** supports the programming interface on
+each platform, using appropriate platform-specific system calls.
 
-     A summary of features one may expect to work in each release is
-in FEATURES.html.
-     
-     This file is part of the <b>Context</b> app, which takes the form
-of an Apple app directory tree, augmented to be self-revealing on
-Linux and Windows as well. When you start the app, it opens a
-<b>console</b>, from which you may control a set
-of <a href="https://en.wikipedia.org/wiki/Smalltalk"><b>Smalltalk</b></a>
+A summary of features one may expect to work in each release is in
+FEATURES.html.
+
+This file is part of the **Context** app, which takes the form of an
+Apple app directory tree, augmented to be self-revealing on Linux and
+Windows as well. When you start the app, it opens a **console**, from
+which you may control a set
+of <a href="https://en.wikipedia.org/wiki/Smalltalk">**Smalltalk**</a>
 systems. The console presents a list of all installed systems,
 describing what each one does and its current state. You can use the
 console to resume and suspend each one. You can also use the console
@@ -35,186 +34,170 @@ to find and install additional systems from the net, and publish them
 there.
 
 
-     objects, messages, and virtual machines
+objects, messages, and virtual machines
 
-     An <b>object</b> is a composition of <b>state</b> (a set of
-<b>references</b> to other objects) and <b>behavior</b> (sequences
-of <b>instructions</b> for manipulating those references). The
-instructions of an object's behavior are organized as <b>methods</b>,
-each of which corresponds to a <b>message</b> that the object
-understands. A <a href="https://en.wikipedia.org/wiki/Smalltalk"><b>Smalltalk</b></a>
+An **object** is a composition of **state** (a set of **references**
+to other objects) and **behavior** (sequences of **instructions** for
+manipulating those references). The instructions of an object's
+behavior are organized as **methods**, each of which corresponds to a
+**message** that the object
+understands. A <a href="https://en.wikipedia.org/wiki/Smalltalk">**Smalltalk**</a>
 system is a collection of objects sending messages to each other, thus
 invoking their behavior and changing their state.
 
-     The behavior is performed by an instruction <b>processor</b>,
-also known as a <b>virtual machine</b>. Each time an object sends a
-message to another object, the processor performs the instructions in
-the method corresonding to that message. To keep track of the
-receiving object of the message, which instruction it is performing,
-and intermediate results, the processor creates a <b>context</b>
-object corresponding to that particular invocation of the message.
+The behavior is performed by an instruction **processor**, also known
+as a **virtual machine**. Each time an object sends a message to
+another object, the processor performs the instructions in the method
+corresonding to that message. To keep track of the receiving object of
+the message, which instruction it is performing, and intermediate
+results, the processor creates a **context** object corresponding to
+that particular invocation of the message.
 
-     In the course of performing a message, the processor will
-encounter instructions that describe sending another message. Each
-context keeps a reference to the context of the previous message the
-processor was performing. A chain of contexts is a <b>process</b>.
+In the course of performing a message, the processor will encounter
+instructions that describe sending another message. Each context keeps
+a reference to the context of the previous message the processor was
+performing. A chain of contexts is a **process**.
 
-     Other instructions direct the processor to perform a built-in
-operation, rather than send a message. These operations
-are <b>primitives</b>. There are primitives for basic functions that
-can be handled by the physical processor, like addition, and those
-which can be handled by the host operating system, like creating a
-network socket. The processor implements a process scheduling
-model. Some primitives request that the processor suspend the current
-process and run a different one instead. The processor uses the
-scheduling model to decide which process should run next.
+Other instructions direct the processor to perform a built-in
+operation, rather than send a message. These operations are
+**primitives**. There are primitives for basic functions that can be
+handled by the physical processor, like addition, and those which can
+be handled by the host operating system, like creating a network
+socket. The processor implements a process scheduling model. Some
+primitives request that the processor suspend the current process and
+run a different one instead. The processor uses the scheduling model
+to decide which process should run next.
 
-     Methods of instructions are generated by a <b>compiler</b>, from
-textual <b>source</b> written by humans or other objects. A compiler
-is an object like any other, part of the running system. In fact,
-source authors have an extensive set of tools (also known as
-an <b>interactive development environment</b>) for writing and
-compiling methods, all implemented as objects sending messages.
+Methods of instructions are generated by a **compiler**, from textual
+**source** written by humans or other objects. A compiler is an object
+like any other, part of the running system. In fact, source authors
+have an extensive set of tools (also known as an **interactive
+development environment**) for writing and compiling methods, all
+implemented as objects sending messages.
 
-     The source level is where humans typically reason about
-messages. The source of a method consists of one or
-more <b>expressions</b>. Here's an example of an expression:
+The source level is where humans typically reason about messages. The
+source of a method consists of one or more **expressions**. Here's an
+example of an expression:
 
-<pre>
+    3 squared
 
-     3 squared
+In that expression, the **receiver** object 3 is sent the message
+"squared". The **selector** of the message is the **symbol**
+"squared". This is an example of a **unary** message; there are no
+**parameters**. When there is at least one parameter, the selector may
+be a sequence of colon-terminated **keywords**. When there is only one
+paremeter, the selector may be a lone **operator** with no
+colon. Here's an expression with a message whose selector is a lone
+operator:
 
-</pre>
+    3 + 4
 
-     In that expression, the <b>receiver</b> object 3 is sent the
-message "squared". The <b>selector</b> of the message is
-the <b>symbol</b> "squared". This is an example of a <b>unary</b>
-message; there are no <b>parameters</b>. When there is at least one
-parameter, the selector may be a sequence of
-colon-terminated <b>keywords</b>. When there is only one paremeter,
-the selector may be a lone <b>operator</b> with no colon. Here's an
-expression with a message whose selector is a lone operator:
+This is called a **binary** message. Here's an expression with a
+message whose selector is a sequence of keywords:
 
-<pre>
+    3 to: 11 by: 4
 
-     3 + 4
+This is called a **keyword** message. The selector has two keywords,
+one for each parameter.
 
-</pre>
+Every object is an **instance** of a **class** object. The class keeps
+a set of methods corresponding to the messages that its instances
+understand. Classes are chained into a hierarchy; each class has a
+**superclass** and zero or more **subclasses**. When the processor
+performs the sending of a message, it looks for a method corresponding
+to that message in the methods of the receiving object's class. If it
+doesn't find one, it continues searching in the superclasses of that
+class. Because the processor searches for appropriate methods in this
+way, we say that an instance of a class **inherits** behavior from the
+superclasses.
 
-     This is called a <b>binary</b> message. Here's an expression with
-a message whose selector is a sequence of keywords:
+A method author can direct the compiler to create and install methods
+in any class at any time, while the system is running. This makes the
+system **dynamic**. The system is always running, and every
+modification that can be made to the system can be done with the
+system. This makes the system **reflective**; it models itself. Even
+the processor is implemented as objects sending messages.
 
-<pre>
-
-     3 to: 11 by: 4
-
-</pre>
-
-     This is called a <b>keyword</b> message. The selector has two
-keywords, one for each parameter.
-
-     Every object is an <b>instance</b> of a <b>class</b> object. The
-class keeps a set of methods corresponding to the messages that its
-instances understand. Classes are chained into a hierarchy; each class
-has a <b>superclass</b> and zero or more <b>subclasses</b>. When the
-processor performs the sending of a message, it looks for a method
-corresponding to that message in the methods of the receiving object's
-class. If it doesn't find one, it continues searching in the
-superclasses of that class. Because the processor searches for
-appropriate methods in this way, we say that an instance of a
-class <b>inherits</b> behavior from the superclasses.
-
-     A method author can direct the compiler to create and install
-methods in any class at any time, while the system is running. This
-makes the system <b>dynamic</b>. The system is always running, and
-every modification that can be made to the system can be done with the
-system. This makes the system <b>reflective</b>; it models
-itself. Even the processor is implemented as objects sending messages.
-
-     All the objects in the system together form the <b>memory</b> of
-the processor. Like a laptop's processor, the method instruction
-processor can make a <b>snapshot</b> of its memory at a particular
-moment, suspend operation, and resume operation with the snapshot
-later. This is known as <b>suspending</b> and <b>resuming</b> a
-memory. The console lets you discover and manipulate memory snapshots.
+All the objects in the system together form the **memory** of the
+processor. Like a laptop's processor, the method instruction processor
+can make a **snapshot** of its memory at a particular moment, suspend
+operation, and resume operation with the snapshot later. This is known
+as **suspending** and **resuming** a memory. The console lets you
+discover and manipulate memory snapshots.
 
 
-     sharing memories
+sharing memories
 
-     The app directory is also
+The app directory is also
 a <a href="https://github.com/ccrraaiigg/context">git repository</a>,
 with a <a href="#submodules">submodule repo</a> nested within it for
 each locally-installed memory. Note that none of this structure is
 signed for any host platform. I'll set up a separate site for
 downloading properly-signed releases. When newly cloned, the master
-repo contains multiple installed memories: a <b>console</b> memory,
-and a <b>development</b> memory for each supported Smalltalk
-distribution.
+repo contains multiple installed memories: a **console** memory, and a
+**development** memory for each supported Smalltalk distribution.
 
-     Currently, <a href="http://squeak.org">Squeak</a> is
-supported. The next target is <a href="http://pharo.org">Pharo</a>. We
-intend to support all distributions, including:
+Currently, <a href="http://squeak.org">Squeak</a> is supported. The
+next target is <a href="http://pharo.org">Pharo</a>. We intend to
+support all distributions, including:
 
-     -<a href="http://squeak.org">Squeak</a>
+- <a href="http://squeak.org">Squeak</a>
 
-     -<a href="http://pharo.org">Pharo</a>
+- <a href="http://pharo.org">Pharo</a>
 
-     -<a href="http://www.cincomsmalltalk.com/main/products/visualworks">VisualWorks</a>
+- <a href="http://www.cincomsmalltalk.com/main/products/visualworks">VisualWorks</a>
 
-     -<a href="http://www.instantiations.com/products/vasmalltalk">VA
+- <a href="http://www.instantiations.com/products/vasmalltalk">VA
 Smalltalk</a>
 
-     -<a href="http://gemtalksystems.com/products/gss32">GemStone/S</a>
+- <a href="http://gemtalksystems.com/products/gss32">GemStone/S</a>
 
-     -<a href="http://smalltalk.gnu.org">GNU Smalltalk</a>
+- <a href="http://smalltalk.gnu.org">GNU Smalltalk</a>
 
-     Please create an issue if we missed one. Thanks!
+Please create an issue if we missed one. Thanks!
 
-     For each memory you want to install locally, clone its repo
-directory to .../context.app/Contents/RUNME/memories/.
+For each memory you want to install locally, clone its repo directory
+to .../context.app/Contents/RUNME/memories/.
 
-     The console memory contains the objects necessary to support
-essential object behavior, to grow itself through live synchronization
-with other memories, and to communicate through web services. A
-development memory has modules installed to support a development
-environment (a graphical interface, compiler, inspectors, debugger,
-etc.).
+The console memory contains the objects necessary to support essential
+object behavior, to grow itself through live synchronization with
+other memories, and to communicate through web services. A development
+memory has modules installed to support a development environment (a
+graphical interface, compiler, inspectors, debugger, etc.).
 
-     A system includes a pair of memories: a <b>subject</b> and
-a <b>history</b>. Each history memory records the edit history of its
+A system includes a pair of memories: a **subject** and a
+**history**. Each history memory records the edit history of its
 subject, and synchronizes it with other subjects. It has no direct
-human interface support (it's <b>headless</b>), because it only needs
-to communicate with its subject memory. It communicates via <b>remote
-messages</b>: messages from objects in one memory to objects in
-another memory (run by a processor on any net-connected physical
-machine).
+human interface support (it's **headless**), because it only needs to
+communicate with its subject memory. It communicates via **remote
+messages**: messages from objects in one memory to objects in another
+memory (run by a processor on any net-connected physical machine).
 
-     The console memory is also headless; there's a web server running
+The console memory is also headless; there's a web server running
 there. The Context app resumes the console memory, and the console
 memory resumes its web server. The Context app then opens a host web
 browser that visits the console web server. The behavior of the
 console (for example, resuming a GUI memory) is then provided as a web
 service.
 
-     The console can interpret <b>command links</b>, special URLs
-which encode commands for controlling memories. When you click on a
-command link, the initial console answers a web page asking which live
-memory should perform the command. The chosen memory asks for
-confirmation before proceeding, through its own console. One thing a
-command can prescribe is module installation, using synchronization
-information in the link. Module and links for installing them can be
-cited together on web pages, indexed by search engines for later
-discovery.
+The console can interpret **command links**, special URLs which encode
+commands for controlling memories. When you click on a command link,
+the initial console answers a web page asking which live memory should
+perform the command. The chosen memory asks for confirmation before
+proceeding, through its own console. One thing a command can prescribe
+is module installation, using synchronization information in the
+link. Module and links for installing them can be cited together on
+web pages, indexed by search engines for later discovery.
 
-     The console memory can become the history memory for another
+The console memory can become the history memory for another
 system. By installing modules, any memory can grow to include a set of
 apps. You can also unload modules.
 
-     You're almost in <b>Context</b>. To get there, start the console:
+You're almost in **Context**. To get there, start the console:
 
--    On Mac OS, double-click the app containing this file.
+-   On Mac OS, double-click the app containing this file.
 
--    On Windows, double-click <b>windows/context.vbs</b>
+-   On Windows, double-click **windows/context.vbs**
 
--    On Linux, run <b>linux/context.sh</b>
+-   On Linux, run **linux/context.sh**
 
